@@ -1,0 +1,95 @@
+import type { SampleArt } from "./types";
+
+export const SAMPLE_ART: SampleArt[] = [
+  {
+    id: "sample-lantern",
+    title: "The Library at the End of the Tide",
+    description:
+      "A lighthouse whose rooms are shelves. Drawn for a story about a keeper who lends books to the sea.",
+    inspiration: "The Lantern Keeper",
+    category: "Fantasy",
+    artist: "Moss",
+    avatar: "fox",
+    motif: "lantern-isle",
+  },
+  {
+    id: "sample-dragon",
+    title: "Teacup Dragon",
+    description: "A very small dragon who takes tea, and friendship, seriously.",
+    inspiration: "Tales from the Teapot",
+    category: "Characters",
+    artist: "Juniper",
+    avatar: "mushroom",
+    motif: "tea-dragon",
+  },
+  {
+    id: "sample-fox",
+    title: "Fox, After Dark",
+    description: "Someone stayed up too late with a good chapter. The fox understands.",
+    category: "Animals",
+    artist: "Pebble",
+    avatar: "moon",
+    motif: "reading-fox",
+  },
+  {
+    id: "sample-greenhouse",
+    title: "The Greenhouse of Unread Books",
+    description: "Books that put out leaves because someone loved them out loud.",
+    inspiration: "The Greenhouse at the End of the Lane",
+    category: "Magical worlds",
+    artist: "Lark",
+    avatar: "book",
+    motif: "glass-garden",
+  },
+  {
+    id: "sample-hare",
+    title: "Hare of the Paper Moon",
+    description: "A hare stitching a moon from spare endpapers.",
+    category: "Animals",
+    artist: "Nim",
+    avatar: "star",
+    motif: "moon-hare",
+  },
+  {
+    id: "sample-boat",
+    title: "Boat Made of Margins",
+    description: "A paper boat, sailing on sentences, with a star for a compass.",
+    inspiration: "Margins of the Sea",
+    category: "Fantasy",
+    artist: "Bracken",
+    avatar: "whale",
+    motif: "star-sailor",
+  },
+  {
+    id: "sample-map",
+    title: "The Mapmaker's Gloves",
+    description: "No face, on purpose. Just gloves, a map, and a sky that refuses to sit still.",
+    inspiration: "Atlas of Unfinished Roads",
+    category: "Characters",
+    artist: "Quill",
+    avatar: "book",
+    motif: "mapmaker",
+  },
+  {
+    id: "sample-window",
+    title: "Window With Two Weathers",
+    description: "One window. Snow on the left, summer on the right, a book on the sill.",
+    category: "Magical worlds",
+    artist: "Hester",
+    avatar: "whale",
+    motif: "two-weather",
+  },
+];
+
+export const ART_CATEGORIES = ["Fantasy", "Animals", "Characters", "Magical worlds"] as const;
+
+export const MOTIF_CHOICES = [
+  { id: "lantern-isle", label: "Lighthouse library" },
+  { id: "tea-dragon", label: "Teacup dragon" },
+  { id: "reading-fox", label: "Reading fox" },
+  { id: "glass-garden", label: "Book greenhouse" },
+  { id: "moon-hare", label: "Moon hare" },
+  { id: "star-sailor", label: "Paper boat" },
+  { id: "mapmaker", label: "Map and gloves" },
+  { id: "two-weather", label: "Two-weather window" },
+] as const;
