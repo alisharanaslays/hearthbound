@@ -2,11 +2,11 @@
 
 A cozy creative community for people who love books. The motto is **Read. Create. Imagine. Belong.**
 
+This folder is the app. The same guide is in the repository README.
+
 This is a first-version prototype. It is a polished front end with browser storage and one real server rule: publishing is refused. It is not a finished place for children, and it does not claim to be fully safe.
 
 ## Why this stack
-
-The folder was empty, so the app is new.
 
 - **Next.js (App Router), React, and TypeScript.** The product needs server checks for age and publishing later. Next.js gives that boundary without a separate backend service yet.
 - **Plain CSS.** The storybook look is custom, so it is not a default component theme.
